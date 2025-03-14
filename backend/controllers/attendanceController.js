@@ -2,7 +2,7 @@ import { Attendance } from "../models/attendanceModel.js";
 import { User } from "../models/userModel.js";
 import tryCatch from "../utils/tryCatch.js";
 
-// Mark Attenda
+// Mark Attendance
 export const markAttendance = tryCatch(async (req, res) => {
     const { studentId, status } = req.body;
     const date = new Date().toISOString().split("T")[0];
