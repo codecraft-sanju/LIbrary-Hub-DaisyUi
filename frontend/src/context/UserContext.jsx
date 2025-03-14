@@ -173,7 +173,7 @@ async function editProfile({ role, userId, name, email, mobileNumber, dateOfBirt
         }
     }
 
-    // Reset Password
+    // Reset Passwor
     async function resetPassword(token, newPassword, navigate) {
         setBtnLoading(true);
         try {
